@@ -5,8 +5,8 @@ export const Background = styled.div`
     display: flex;
     flex-direction:column;
     background: url(${({src}) => 
-        src ? `../images/misc/${src}.jpg`: '../images/misc/home-bg.jpg'
-    }) top-left / cover no-repeat
+        src ? `../images/misc/${src}.jpeg`: '../images/misc/home-imac.jpeg'}) 
+    top-left/cover no-repeat
 `;
 
 export const Frame = styled.div``;

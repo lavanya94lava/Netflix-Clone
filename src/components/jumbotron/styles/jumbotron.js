@@ -41,5 +41,8 @@ export const Title = styled.h1``;
 
 export const SubTitle = styled.h2``;
 
-export const Image = styled.img``;
+export const Image = styled.img`
+    height:100%;
+    width:100%;
+`;
 
