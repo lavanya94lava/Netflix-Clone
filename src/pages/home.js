@@ -16,14 +16,14 @@ export default function Home(){
                 <Feature.SubTitle>
                     Watch anywhere. Cancel at any time.
                 </Feature.SubTitle>
-            </Feature>
-            <OptForm>
+                <OptForm>
                     <OptForm.Input placeholder = "Email Address"/>
                     <OptForm.Button>Try It Now</OptForm.Button>
                     <OptForm.Break/>
                     <OptForm.Text>Ready To Watch?Enter your email to create or restart your membership
                     </OptForm.Text>
             </OptForm>
+            </Feature>
         </HeaderContainer>
         <JumbotronContainer/>
         <FaqsContainer/>
