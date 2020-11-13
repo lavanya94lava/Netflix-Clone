@@ -9,7 +9,7 @@ export function JumbotronContainer() {
         <Jumbotron key = {item.id} direction = {item.direction}>
           <Jumbotron.Pane>
             <Jumbotron.Title>
-				    {item.title}
+				      {item.title}
 			      </Jumbotron.Title>
 			      <Jumbotron.SubTitle>
             	{item.subTitle}
