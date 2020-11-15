@@ -1,11 +1,15 @@
 import React from 'react';
 import { useContent } from '../hooks';
+import selectionFilter from '../utils/selection-filter';
+import { BrowseContainer } from '../containers/browse';
 
 export default function Browse(){
 
     const {series}  = useContent('series');
     const {films} = useContent('films');
-    console.log("series",series)
-    console.log("films", films)
-    return (<p>Hello from Browse!</p>);
+    
+    const slides = selectionFilter({ series, films });
+    console.log("slides", slides)
+
+    return <BrowseContainer slides = {slides} />
 }
